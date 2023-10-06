@@ -287,9 +287,9 @@ function toggleNightMode(event) {
     if (nightModeIcon) {
         var currentImageSrc = nightModeIcon.src;
         if (currentImageSrc.includes("luna.png")) {
-            nightModeIcon.src = "nav-icons/Sol.png";
+            nightModeIcon.src = "Sol.png";
         } else {
-            nightModeIcon.src = "nav-icons/luna.png";
+            nightModeIcon.src = "luna.png";
         }
     }
 
