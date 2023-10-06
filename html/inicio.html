@@ -1,0 +1,94 @@
+<div class="mainn">
+    <div id="Slider">
+        <div class="slider-container">
+            <div class="slide fade">
+                <img class="sliderImg" src="../css/assets/sliders/slider 1.jpg" alt="Slide 1">
+            </div>
+            <div class="slide fade">
+                <img class="sliderImg" src="../css/assets/sliders/foto2.svg" alt="Slide 2">
+            </div>
+            <div class="slide fade">
+
+                <img class="sliderImg" src="../css/assets/sliders/SLIDER2.jpg" alt="Slide 3">
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">Anterior</button>
+            <button class="next" onclick="changeSlide(1)">Siguiente</button>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="main-divs">
+            <div id="containerTop">
+                <section class="section">
+                    <div class="centered-content ventas"  value="Venta" onclick="Abrir()">
+                        <img class="page" src="../css/assets/icons-without-background/sales.png" alt="Sales">
+                        <div>VENTAS</div>
+                        <div>$0.00K</div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <div class="centered-content"  value="Vento" onclick="Abrir()"> 
+                    <img class="tarjet" src="../css/assets/icons-without-background/total-sales.png"
+                        alt="totalSales">
+                    <div>VENTAS/TOTAL</div>
+                    <div>$0.00k</div>
+                </div>
+                </section>
+
+                <section class="section " >
+                    <div class="centered-content" value="Liqui" onclick="Abrir()">
+                    <img class="tarjet" src="../css/assets/icons-without-background/liquidacion.png"
+                        alt="totalSales">
+                    <div>LIQUIDACION</div>
+                    <div>HOY $0.00K</div>
+                    <div>FUTURAS $0.00</div>
+                </div>
+                </section>
+            </div>
+            <div id="containerBottom">
+                <section class="section" >
+                    <div class="centered-content comprobante" value="Compr" onclick="Abrir()"> 
+                    <img class="page" src="../css/assets/icons-without-background/comprobante.png"
+                        alt="comprobante">
+                    <div>COMPROBANTES</div>
+                </div>
+                </section>
+
+                <section class="section" >
+                    <div class="centered-content" value="Envdi" onclick="Abrir()">
+                    <img class="tarjet" src="../css/assets/icons-without-background/sendMoney.png"
+                        alt="sendMoney">
+                    <div>ENVIAR DINERO</div>
+                    <div>$697.17</div>
+                </div>
+                </section>
+                <section class="section">
+                    <div class="centered-content pagoServicios"  value="Pagse" onclick="Abrir()"> 
+                    <img class="page" src="../css/assets/icons-without-background/ServicesPay.png"
+                        alt="ServicesPay">
+                    <div>PAGO DE SERVICIOS</div>
+                    <div>RAPIPAGO</div>
+                </div>
+                </section>
+            </div>
+     
+    </div>
+
+    <div class="ultimos">
+        <p id="fechaActual"></p>
+        <table id="TableInicio">
+            <thead>
+                <tr class="a">
+                    <th>FECHA</th>
+                    <th>CONCEPTO</th>
+                    <th>IMPORTE</th>
+                </tr>
+            </thead>
+            <tbody id="ListaInicio">
+            </tbody>
+        </table>
+        <button onclick="VerMas()" id="verMas">VER MAS</button>
+    </div>
+
+</div>
+</div>
